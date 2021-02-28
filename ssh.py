@@ -18,8 +18,8 @@ except:
 if platform.python_version().split(".")[0] != "3":
 	exit("\x1b[1;97m[\x1b[1;91m!\x1b[1;97m] KETIK: python "+sys.argv[0])
 
-def Membuat_ssl(id, cookies, user, pw, server):
-	data = {"serverid":ID;"username":user,"password":pw}
+def  Membuat_ssl ( id , cookies , user , pw , server ):
+	data  = { "serverid" :id; "username" : pengguna , "password" : pw }
 	agent = open("ua.txt","r").read()
 	acak = random.choice(agent.split("\n"))
 	head = {"http://www.sshinjector.net/?do=ssh-servers","Connection":"keep-alive","Accept":"*/*","Origin":"http://www.sshinjector.net/?do=ssh-servers","X-Requested-With":"XMLHttpRequest","User-Agent":acak,"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","Referer":server,"Accept-Encoding":"gzip, deflate","Accept-Language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
